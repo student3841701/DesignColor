@@ -11,7 +11,8 @@ library(devtools)
 
 
 
-source("https://raw.github.com/student3841701/DesignColor/desco.R")
+source_url("https://raw.github.com/student3841701/DesignColor/master/desco.R")
+
 
 
 out <- data.frame(A=runif(16, 5.0, 7.5),B=runif(16, 2, 8),D=c("A","B","C","D","A","A","B","C","D","B","C","A","B","C","D","B"))
